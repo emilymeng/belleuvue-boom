@@ -1,0 +1,17 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "breathless-dialog"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "2017/business/bellevue-boom"
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": []
+}

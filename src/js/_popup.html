@@ -1,0 +1,36 @@
+<div class="popuptext">
+
+<!-- class types for popup - descript, note, address, emphasis, popup-img, credit -->
+
+<!--   {{#image}}
+    <video autoplay loop class="popup-img">
+      <source src="{{image}}" type="video/mp4">Your browser does not support the video tag.
+    </video>
+    <div class="credit">Corinne Chin / The Seattle Times</div>
+  {{/image}}
+ -->
+  <h2 class="bigheader">{{Project Name}}</h2>
+
+  <div class="value">${{Construction Valuation}}</div>
+  <br>
+  <div class="address">{{Status}}</div>
+  {{#Permit Final Date}}
+  <div class="address">Finished on: {{Permit Final Date}}</div>
+  {{/Permit Final Date}}
+  <div class="address">Building type: {{category}}</div>
+  <!-- {{#Permit Issue Date}}
+  <div class="address">Permit issue date: {{Permit Issue Date}}</div>
+  {{/Permit Issue Date}} -->
+  <div class="address">{{address}}</div>
+  <div class="descript">{{Project Description}}</div>
+
+  {{#description}}
+    <div class="descript">{{description}}</div>
+  {{/description}}
+
+<!--   {{#link}}
+    <div class="note"><a href="{{link}}" target="_blank"><em>(Source)</em></a></div>
+  {{/link}} -->
+
+
+</div>
